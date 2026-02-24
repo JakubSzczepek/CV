@@ -76,12 +76,6 @@ export default function Hero() {
                   <IconLocation />
                   <span>{hero.location ?? city}</span>
                 </div>
-                <div className="profile-card__info-item">
-                  <IconEmail />
-                  <a href={`mailto:${personal.email ?? ''}`} className="profile-card__link">
-                    {personal.email}
-                  </a>
-                </div>
               </div>
 
               <a
