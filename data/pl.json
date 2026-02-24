@@ -157,7 +157,7 @@
     "edu_3_spec": "Technik Elektronik"
   },
   "certificates_data": {
-    "cert_1": {"type": "Licencja", "name": "ISTQB Certidied Tester Foundation Level- 08339/FLCT/2017"},
+    "cert_1": {"type": "Licencja", "name": "ISTQB Certified Tester Foundation Level- 08339/FLCT/2017"},
     "cert_2": {"type": "Dyplom", "name": "Dyplom Potwierdzający uzyskanie kwalifikacji pierwszego stopnia na kierunku Elektrotechnika w specjalności Automatyka w układach elektrycznych z wynikiem dobrym."},
     "cert_3": {"type": "Dyplom", "name": "Dyplom Potwierdzający kwalifikacje zawodowe w zawodzie Technik Elektronik."},
     "cert_4": {"type": "ECDL", "name": "Europejski Certyfikat Umiejętności Komputerowych."},

@@ -235,14 +235,7 @@
   border: 1px solid var(--color-border, rgba(255, 255, 255, 0.06));
   border-radius: 9999px;
   font-size: 0.875rem;
-  transition: all 0.3s;
   color: var(--color-text-secondary, #A0AEC0);
-}
-
-.badge:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: var(--color-accent-green, #33D17A);
-  transform: translateY(-2px);
 }
 
 .badge__icon {
