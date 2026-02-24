@@ -533,16 +533,14 @@ svg defs {
     content: '';
     position: absolute;
     left: 0;
-    top: 0.6em; /* dostosowane do wysokości linii tekstu */
+    top: calc(0.8125em - 4px); /* centers 8px dot on first line: (1.625 line-height / 2)em - half-dot */
     width: 8px;
     height: 8px;
     border-radius: var(--radius-full);
     background: var(--color-accent-green);
 }
 
-.timeline__content {
-    padding: 7.8rem; /* 125px - zwiększone o 20% dla Experience items */
-}
+/* .timeline__content inherits padding from .card */
 
 @media (max-width: 768px) {
     .timeline__content {
