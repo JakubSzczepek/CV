@@ -126,7 +126,7 @@
   transform: translateY(0);
 }
 
-.card,
+.card:not(.timeline__content),
 .skill-card,
 .timeline__item,
 .education-card {
@@ -135,7 +135,7 @@
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
-.card.animate-in,
+.card:not(.timeline__content).animate-in,
 .skill-card.animate-in,
 .timeline__item.animate-in,
 .education-card.animate-in {

@@ -49,7 +49,7 @@ function useScrollReveal(active) {
           }
         })
       },
-      { threshold: 0.08, rootMargin: '0px 0px -40px 0px' }
+      { threshold: 0, rootMargin: '0px 0px 0px 0px' }
     )
     targets.forEach(el => observer.observe(el))
     return () => observer.disconnect()
