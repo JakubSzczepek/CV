@@ -82,7 +82,7 @@
 .card {
     background: var(--color-bg-secondary);
     border-radius: var(--radius-lg);
-        padding: 6rem; /* 96px - zwiększone dla większych kart doświadczenia */
+    padding: 6rem; /* 96px - zwiększone dla większych kart doświadczenia */
     border: 1px solid var(--color-border);
     box-shadow: var(--shadow-1);
     transition: all var(--transition-base);
@@ -92,6 +92,13 @@
     border-color: var(--color-border-hover);
     box-shadow: var(--shadow-2);
     transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 2rem; /* Reduced for mobile */
+        border-radius: var(--radius-md);
+    }
 }
 
 
@@ -115,6 +122,18 @@
     
     transition: all var(--transition-base);
     white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        padding: 1rem 2rem; /* Reduced for mobile */
+        font-size: var(--text-sm);
+    }
+    
+    .btn--large {
+        padding: 1.25rem 2.5rem !important;
+        font-size: var(--text-base) !important;
+    }
 }
 
 .btn--primary {
@@ -264,6 +283,13 @@
     box-shadow: var(--shadow-2);
 }
 
+@media (max-width: 768px) {
+    .profile-card__avatar {
+        width: 160px; /* Smaller on mobile */
+        height: 160px;
+    }
+}
+
 .profile-card__status {
     position: absolute;
     bottom: 8px;
@@ -286,6 +312,12 @@
     font-weight: var(--font-bold);
     line-height: var(--leading-tight);
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .profile-card__name {
+        font-size: 1.75rem; /* Smaller on mobile */
+    }
 }
 
 .profile-card__firstname,
@@ -342,8 +374,15 @@
     gap: var(--space-4);
     align-items: center;
     text-align: center;
-        padding: 6rem; /* 96px - zwiększone dla większych kart doświadczenia */
-        min-height: 600px; /* Zwiększona wysokość dla lepszej widoczności */
+    padding: 6rem; /* 96px - zwiększone dla większych kart doświadczenia */
+    min-height: 600px; /* Zwiększona wysokość dla lepszej widoczności */
+}
+
+@media (max-width: 768px) {
+    .skill-card {
+        padding: 2rem;
+        min-height: 400px;
+    }
 }
 
 .skill-card__header {
@@ -476,6 +515,12 @@ svg defs {
     padding: 7.8rem; /* 125px - zwiększone o 20% dla Experience items */
 }
 
+@media (max-width: 768px) {
+    .timeline__content {
+        padding: 2rem; /* Reduced for mobile */
+    }
+}
+
 
 /* ==================== EDUCATION CARD ==================== */
 
@@ -483,6 +528,24 @@ svg defs {
     display: flex;
     gap: var(--space-6);
     padding: 6.5rem; /* 104px - increased for better visibility */
+}
+
+@media (max-width: 768px) {
+    .education-card {
+        flex-direction: column;
+        padding: 2rem;
+        gap: var(--space-3);
+    }
+    
+    .education-card__icon {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .education-card__icon svg {
+        width: 32px;
+        height: 32px;
+    }
 }
 
 .education-card__icon {
