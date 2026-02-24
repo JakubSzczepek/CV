@@ -1,0 +1,110 @@
+{
+  "personal": {
+    "name": "Jakub Szczepek",
+    "birth_date": "25.07.1991",
+    "phone": "+48 511 195 553",
+    "email": "szczepek.jakub@gmail.com",
+    "linkedin": "www.linkedin.com/in/jszczepek",
+    "profile_picture": "assets/images/Profilowe3.png",
+    "social_links": {
+      "github": "https://github.com/JakubSzczepek",
+      "linkedin": "https://www.linkedin.com/in/jszczepek"
+    }
+  },
+  "skills": [
+    {"name_key": "python", "level": 5},
+    {"name_key": "java", "level": 4},
+    {"name_key": "Team Leading", "level": 5},
+    {"name_key": "test_automation", "level": 4},
+    {"name_key": "bdd", "level": 4},
+    {"name_key": "git", "level": 4},
+    {"name_key": "grpc", "level": 3},
+    {"name_key": "rest", "level": 3},
+    {"name_key": "gcp", "level": 3},
+    {"name_key": "english", "level": 4}
+  ],
+  "tools": [
+    {"name": "JIRA", "level": 8},
+    {"name": "Confluence", "level": 4},
+    {"name": "Microsoft Office", "level": 5},
+    {"name": "JENKINS", "level": 4},
+    {"name": "Postman", "level": 4}
+  ],
+  "experience": [
+    {
+      "period_key": "exp_1_period",
+      "title_key": "exp_1_title",
+      "company": "SABRE",
+      "tasks_key": "exp_1_tasks"
+    },
+    {
+      "period_key": "exp_2_period",
+      "title_key": "exp_2_title",
+      "company": "SABRE",
+      "tasks_key": "exp_2_tasks"
+    },
+    {
+      "period_key": "exp_3_period",
+      "title_key": "exp_3_title",
+      "company": "Infolet/SABRE",
+      "tasks_key": "exp_3_tasks"
+    },
+    {
+      "period_key": "exp_4_period",
+      "title_key": "exp_4_title",
+      "company": "Benhauer",
+      "tasks_key": "exp_4_tasks"
+    },
+    {
+      "period_key": "exp_5_period",
+      "title_key": "exp_5_title",
+      "company": "Aptiv Services Poland S.A.",
+      "tasks_key": "exp_5_tasks"
+    },
+    {
+      "period_key": "exp_6_period",
+      "title_key": "exp_6_title",
+      "company": "Aptiv Services Poland S.A.",
+      "tasks_key": "exp_6_tasks"
+    },
+    {
+      "period_key": "exp_7_period",
+      "title_key": "exp_7_title",
+      "company": "Delphi Poland S.A",
+      "tasks_key": "exp_7_tasks"
+    },
+    {
+      "period_key": "exp_8_period",
+      "title_key": "exp_8_title",
+      "company": "Delphi Poland S.A",
+      "tasks_key": "exp_8_tasks"
+    }
+  ],
+  "education": [
+    {
+      "period": "2015-2017",
+      "degree_key": "edu_1_degree",
+      "school_key": "edu_1_school",
+      "specialization_key": "edu_1_spec"
+    },
+    {
+      "period": "2011-2015",
+      "degree_key": "edu_2_degree",
+      "school_key": "edu_2_school",
+      "specialization_key": "edu_2_spec"
+    },
+    {
+      "period": "2007-2011",
+      "degree_key": "edu_3_degree",
+      "school_key": "edu_3_school",
+      "specialization_key": "edu_3_spec"
+    }
+  ],
+  "certificates_keys": [
+    "cert_1",
+    "cert_2",
+    "cert_3",
+    "cert_4",
+    "cert_5"
+  ]
+}

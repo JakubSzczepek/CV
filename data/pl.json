@@ -1,0 +1,167 @@
+{
+  "ui_translations": {
+    "nav": {
+      "about": "O mnie",
+      "skills": "Umiejętności",
+      "experience": "Doświadczenie",
+      "education": "Wykształcenie",
+      "contact": "Kontakt"
+    },
+    "hero": {
+      "greeting": "Cześć, jestem Kuba",
+      "title1": "Moje Motto to:",
+      "title2": "Quality First",
+      "role": "Principal Software Quality Engineer",
+      "location": "Kraków, Polska",
+      "cta": "Skontaktuj się"
+    },
+    "about": {
+      "title": "O mnie"
+    },
+    "skills": {
+      "title": "Umiejętności",
+      "beginner": "Początkujący",
+      "intermediate": "Średnio zaawansowany",
+      "proficient": "Biegły",
+      "advanced": "Zaawansowany",
+      "expert": "Ekspert"
+    },
+    "tools": {
+      "title": "Narzędzia"
+    },
+    "experience": {
+      "title": "Doświadczenie"
+    },
+    "education": {
+      "title": "Wykształcenie"
+    },
+    "certificates": {
+      "title": "Certyfikaty"
+    },
+    "contact": {
+      "title": "Skontaktujmy się!",
+      "description": "Szukasz doświadczonego testera do swojego projektu? Skontaktuj się ze mną, chętnie omówię szczegóły współpracy.",
+      "email": "Wyślij email"
+    },
+    "footer": {
+      "rights": "Wszelkie prawa zastrzeżone."
+    }
+  },
+  "personal": {
+    "address": "ul. Aleksandry 4/1, 30-867 Kraków"
+  },
+  "hero_description": "Szukam miejsca do rozwoju swoich umiejętności i doświadczenia, gdzie mógłbym przyczynić się do sukcesu zespołu i organizacji.",
+  "about": "Jestem doświadczonym Principal Software Quality Engineer z pasją do zapewniania najwyższej jakości oprogramowania. Specjalizuję się w automatyzacji testów, strategii testowania oraz zarządzaniu zespołami QA.\n\nW mojej karierze miałem okazję pracować nad różnorodnymi projektami, od systemów enterprise po nowoczesne aplikacje chmurowe. Cenię sobie współpracę zespołową, ciągłe doskonalenie procesów oraz dzielenie się wiedzą z innymi.",
+  "skill_names": {
+    "python": "Python",
+    "team_leading": "Team Leading",
+    "java": "JAVA",
+    "english": "Język Angielski",
+    "bdd": "BDD",
+    "git": "GIT",
+    "grpc": "gRPC",
+    "rest": "REST",
+    "test_automation": "Test Automation",
+    "test_strategy": "Test Strategy Design",
+    "gcp": "Google Cloud Platform"
+  },
+  "experience_data": {
+    "exp_1_period": "06.2025 - ",
+    "exp_1_title": "Principal Software Quality Engineer",
+    "exp_1_tasks": [
+      "Projektowanie, rozwój i utrzymanie strategii testów automatycznych dla złożonych systemów (JAVA, BDD, GIT, REST, gRPC)",
+      "Tworzenie i egzekwowanie standardów jakościowych oraz procedur testowych na poziomie produktu i organizacji",
+      "Analiza wyników testów, raportowanie defektów oraz rekomendowanie działań korygujących (JENKIS, Internal Frameworks)",
+      "Analiza root cause oraz rozwiązywanie problemów jakościowych we współpracy z zespołami developerskimi (JIRA, GitHub)",
+      "Weryfikacja architektury, integracji systemów oraz poprawności przetwarzania danych (GCP, GKE)",
+      "Koordynacja pracy zespołu testerskiego oraz wsparcie procesów rekrutacyjnych",
+      "Mentoring techniczny i onboarding nowych członków zespołu",
+      "Prace R&D w obszarze rozwoju narzędzi testowych i aplikacji (Agenci AI, Testing Frameworks)"
+    ],
+    "exp_2_period": "12.2021 - 06.2025",
+    "exp_2_title": "Senior QA Automation Engineer",
+    "exp_2_tasks": [
+      "Tworzenie testów automatycznych (JAVA, BDD, GIT, gRPC)",
+      "Raportowanie błędów (BITBUCKET, JIRA)",
+      "Analiza root cause z developerami (JENKINS, GCP, Helm)",
+      "Wspomaganie procesów rekrutacyjnych",
+      "Koordynacja zespołem testerskim",
+      "Nadzorowanie i wdrażanie nowych pracowników.",
+      "Praca R&D w obszarze rozwoju testów i aplikacji"
+    ],
+    "exp_3_period": "11.2020 - 12.2021",
+    "exp_3_title": "QA Automation Engineer",
+    "exp_3_tasks": [
+      "Tworzenie testów automatycznych (JAVA, BDD, GIT)",
+      "Raportowanie błędów (BITBUCKET, JIRA)",
+      "Analiza root cause z developerami (JENKINS, GCP)"
+    ],
+    "exp_4_period": "03.2020 - 04.2020",
+    "exp_4_title": "QA Automation Engineer",
+    "exp_4_tasks": [
+      "Tworzenie testów automatycznych (Python, BDD, Behave, GIT)",
+      "Raportowanie błędów (BITBUCKET, JIRA)",
+      "Analiza root cause z developerami (JENKINS, ALLURE)"
+    ],
+    "exp_5_period": "2019 - 2020",
+    "exp_5_title": "Software Test Automation Engineer",
+    "exp_5_tasks": [
+      "Tworzenie i utrzymywanie narzędzi do automatyzacji testów. (Python, C#)",
+      "Tworzenie komponentów bazy danych. (MS SQL, ORM)",
+      "Tworzenie komponentów API wspierającego duże zestawy danych. (.NET Core, Entity Framework)",
+      "Zarządzanie danymi w magazynach danych. (iRODS, AWS)",
+      "Aktywne członkostwo w rozwoju projektu (Gitlab, Microsoft DevOps)",
+      "Zarządzanie, utrzymywanie, wdrażanie automatyzacji testów na HPCC pod systemem Unix (Bash, Slurm)",
+      "Tworzenie technicznych rozwiązań problemów projektowych",
+      "Udział w przeglądach technicznych narzędzi, programów od wewnętrznych jak i zewnętrznych dostawców."
+    ],
+    "exp_6_period": "2017 - 2019",
+    "exp_6_title": "Software System Test Engineer",
+    "exp_6_tasks": [
+      "Tworzenie i administrowanie narzędzi wspomagających pracę zespołu i automatyzację testów. (Python, Matlab)",
+      "Wspomaganie i nadzorowanie procesu archiwizacji i kontroli wersji  (GIT, Plastic SCM)",
+      "Tworzenie dokumentacji technicznych, instrukcji, lessons learned (Confluence)",
+      "Tworzenie automatycznych testów. (skrypty MATLAB/Python)",
+      "Wykonywanie testów, tworzenie raportów oraz raportowanie błędów. (JIRA)",
+      "Analiza i współtworzenie wymagań projektowych i wymagań dotyczących testowania.",
+      "Aktywne uczestnictwo oraz przewodnictwo w spotkaniach projektowych oraz procesach review.",
+      "Nadzorowanie i wdrażanie nowych pracowników."
+    ],
+    "exp_7_period": "2016 - 2017",
+    "exp_7_title": "Junior Software System Test Engineer",
+    "exp_7_tasks": [
+      "Analiza wymagań projektowych. (DOORS)",
+      "Przygotowywanie dokumentacji i scenariuszy testowych bazujących na wymaganiach. (Microsoft Office)",
+      "Tworzenie automatycznych testów. (skrypty MATLAB/Python)",
+      "Wykonywanie testów, tworzenie raportów oraz raportowanie błędów. (JIRA)",
+      "Wykonywanie testów samochodowych. (OXTS RT-Range)",
+      "Kooperacja z innymi zespołami (lokalnie jak i zdalnie)."
+    ],
+    "exp_8_period": "2015 - 2016",
+    "exp_8_title": "Specjalista do indeksowania i klasyfikowania danych wizualnych",
+    "exp_8_tasks": [
+      "Klasyfikowanie i indeksowanie informacji wizualnych.",
+      "Udział w procesie tworzenia i adaptacji skryptów automatyzujących testy. (MATLAB)",
+      "Udział w przeprowadzanych testach samochodowych.(OXTS RT-Range)"
+    ]
+  },
+  "education_data": {
+    "edu_1_degree": "II stopień Elektrotechnika",
+    "edu_1_school": "Politechnika Krakowska",
+    "edu_1_spec": "Informatyczne systemy automatyki.",
+    "edu_2_degree": "Inż. I stopień Elektrotechnika",
+    "edu_2_school": "Politechnika Krakowska",
+    "edu_2_spec": "Automatyka w układach elektrycznych. Temat Pracy: Trójfazowy falownik napięcia ze wspomaganiem przełączania.",
+    "edu_3_degree": "Technik Elektronik",
+    "edu_3_school": "Technikum nr 14 w Zespole Szkół Łączności",
+    "edu_3_spec": "Technik Elektronik"
+  },
+  "certificates_data": {
+    "cert_1": {"type": "Licencja", "name": "ISTQB Certidied Tester Foundation Level- 08339/FLCT/2017"},
+    "cert_2": {"type": "Dyplom", "name": "Dyplom Potwierdzający uzyskanie kwalifikacji pierwszego stopnia na kierunku Elektrotechnika w specjalności Automatyka w układach elektrycznych z wynikiem dobrym."},
+    "cert_3": {"type": "Dyplom", "name": "Dyplom Potwierdzający kwalifikacje zawodowe w zawodzie Technik Elektronik."},
+    "cert_4": {"type": "ECDL", "name": "Europejski Certyfikat Umiejętności Komputerowych."},
+    "cert_5": {"type": "Prawo Jazdy", "name": "Prawo Jazdy Kategorii B."}
+  },
+  "consent": "Wyrażam zgodę na przetwarzanie moich danych osobowych w celu rekrutacji zgodnie z art. 6 ust. 1 lit. a Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych)"
+}
