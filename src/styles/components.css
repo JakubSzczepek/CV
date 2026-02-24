@@ -627,7 +627,7 @@ svg defs {
 /* ==================== BADGE ==================== */
 
 .badge {
-    display: inline-flex;
+    display: flex;
     align-items: flex-start;
     gap: var(--space-1);
     
@@ -635,7 +635,6 @@ svg defs {
     background: var(--color-bg-secondary);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-md);
-    width: 100%;
     box-sizing: border-box;
     
     transition: all var(--transition-base);

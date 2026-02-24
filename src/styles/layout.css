@@ -469,8 +469,8 @@ body::before {
 /* ==================== CERTIFICATES LAYOUT ==================== */
 
 .certificates__list {
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    overflow: hidden;
 }
 
 .badge-list {
