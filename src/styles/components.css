@@ -374,7 +374,7 @@
     display: flex;
     align-items: center;
     gap: var(--space-1);
-    font-size: clamp(0.65rem, 2.8vw, var(--text-sm));
+    font-size: 0.8125rem;
     color: var(--color-text-secondary);
     min-width: 0;
     width: 100%;
