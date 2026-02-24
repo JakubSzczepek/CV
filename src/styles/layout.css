@@ -104,7 +104,7 @@ body::before {
 
 .navigation__logo {
     font-family: var(--font-display);
-    font-size: clamp(0.875rem, 4vw, var(--text-lg));
+    font-size: clamp(0.875rem, 4vw, 1.125rem);
     font-weight: var(--font-bold);
     color: var(--color-text-primary);
     text-decoration: none;
@@ -113,9 +113,9 @@ body::before {
     transition: color var(--transition-fast);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .navigation__logo {
-        font-size: var(--text-xl);
+        font-size: 1.25rem;
     }
 }
 
@@ -126,11 +126,12 @@ body::before {
 .navigation__menu {
     display: none;
     list-style: none;
-    gap: var(--space-4);
+    gap: var(--space-2);
 }
 
 .navigation__link {
-    font-size: var(--text-sm);
+    font-size: 0.875rem;
+    white-space: nowrap;
     font-weight: var(--font-medium);
     color: var(--color-text-secondary);
     text-decoration: none;
@@ -190,7 +191,7 @@ body::before {
 
 
 /* Desktop navigation */
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .navigation__menu {
         display: flex;
     }
