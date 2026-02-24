@@ -30,6 +30,32 @@ function LoadingScreen() {
   )
 }
 
+// ── Scroll-reveal observer ────────────────────────────────────────────────────
+
+const ANIMATE_SELECTOR = '.section, .card, .skill-card, .timeline__item, .education-card'
+
+function useScrollReveal(active) {
+  useEffect(() => {
+    if (!active) return
+    const targets = document.querySelectorAll(ANIMATE_SELECTOR)
+    if (!targets.length) return
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-in')
+            observer.unobserve(entry.target)
+          }
+        })
+      },
+      { threshold: 0.08, rootMargin: '0px 0px -40px 0px' }
+    )
+    targets.forEach(el => observer.observe(el))
+    return () => observer.disconnect()
+  }, [active])
+}
+
 // ── Inner app (uses context) ──────────────────────────────────────────────────
 
 function CVApp() {
@@ -41,6 +67,9 @@ function CVApp() {
       history.replaceState(null, null, window.location.pathname + window.location.search)
     }
   }, [])
+
+  // Activate scroll-reveal after data has loaded
+  useScrollReveal(!loading && !error)
 
   if (loading) return <LoadingScreen />
   if (error) return (
