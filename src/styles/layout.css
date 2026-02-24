@@ -104,10 +104,12 @@ body::before {
 
 .navigation__logo {
     font-family: var(--font-display);
-    font-size: var(--text-lg);
+    font-size: clamp(0.875rem, 4vw, var(--text-lg));
     font-weight: var(--font-bold);
     color: var(--color-text-primary);
     text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
     transition: color var(--transition-fast);
 }
 
@@ -231,19 +233,6 @@ body::before {
     color: var(--color-text-primary);
     margin-bottom: var(--space-6);
     text-align: center;
-}
-
-@media (max-width: 768px) {
-    .section__title {
-        font-size: 1.75rem; /* Reduced for mobile */
-        margin-bottom: var(--space-4);
-    }
-}
-
-@media (min-width: 768px) {
-    .section__title {
-        font-size: var(--text-4xl);
-    }
 }
 
 
