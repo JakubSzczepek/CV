@@ -475,9 +475,11 @@ body::before {
 
 .badge-list {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: var(--space-2);
-    justify-content: center;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
 }
 
 
@@ -493,10 +495,12 @@ body::before {
 
 .contact__title {
     font-family: var(--font-display);
-    font-size: var(--text-4xl);
+    font-size: clamp(1.75rem, 8vw, var(--text-4xl));
     font-weight: var(--font-bold);
     color: var(--color-text-primary);
     margin-bottom: var(--space-3);
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .contact__description {
