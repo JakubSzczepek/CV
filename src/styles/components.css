@@ -654,7 +654,7 @@ svg defs {
 }
 
 .badge__text {
-    font-size: clamp(0.875rem, 3.5vw, var(--text-sm));
+    font-size: var(--text-sm);
     font-weight: var(--font-medium);
     color: var(--color-text-primary);
     overflow-wrap: anywhere;

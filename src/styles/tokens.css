@@ -95,18 +95,18 @@
     --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --font-display: 'Sora', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     
-    /* Font Sizes - Increased by 50% */
-    --text-xs: 1.3125rem;   /* 21px - was 14px */
-    --text-sm: 1.40625rem;  /* 22.5px - was 15px */
-    --text-base: 1.5rem;    /* 24px - was 16px */
-    --text-md: 1.59375rem;  /* 25.5px - was 17px */
-    --text-lg: 1.875rem;    /* 30px - was 20px */
-    --text-xl: 2.0625rem;   /* 33px - was 22px */
-    --text-2xl: 2.4375rem;  /* 39px - was 26px */
-    --text-3xl: 3rem;       /* 48px - was 32px */
-    --text-4xl: 3.75rem;    /* 60px - was 40px */
-    --text-5xl: 4.875rem;   /* 78px - was 52px */
-    --text-6xl: 6rem;       /* 96px - was 64px */
+    /* Font Sizes - fluid clamp(mobile, vw, desktop) */
+    --text-xs:   clamp(0.875rem,  3.5vw,  1.3125rem);
+    --text-sm:   clamp(0.9375rem, 3.75vw, 1.40625rem);
+    --text-base: clamp(1rem,      4vw,    1.5rem);
+    --text-md:   clamp(1.0625rem, 4.25vw, 1.59375rem);
+    --text-lg:   clamp(1.25rem,   5vw,    1.875rem);
+    --text-xl:   clamp(1.375rem,  5.5vw,  2.0625rem);
+    --text-2xl:  clamp(1.625rem,  6.5vw,  2.4375rem);
+    --text-3xl:  clamp(2rem,      8vw,    3rem);
+    --text-4xl:  clamp(2.5rem,    10vw,   3.75rem);
+    --text-5xl:  clamp(3.25rem,   13vw,   4.875rem);
+    --text-6xl:  clamp(4rem,      16vw,   6rem);
     
     /* Font Weights */
     --font-regular: 400;
@@ -181,11 +181,6 @@
     :root {
         /* Navigation height for larger screens */
         --nav-height: 90px;
-        
-        /* Adjust typography for larger screens - Increased by 50% */
-        --text-base: 1.5rem;    /* 24px - was 16px */
-        --text-5xl: 4.5rem;     /* 72px - was 48px */
-        --text-6xl: 5.625rem;   /* 90px - was 60px */
     }
 }
 
