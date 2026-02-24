@@ -630,6 +630,9 @@ svg defs {
     display: flex;
     align-items: flex-start;
     gap: var(--space-1);
+    min-width: 0;
+    max-width: 100%;
+    overflow: hidden;
     
     padding: 1rem 1.5rem;
     background: var(--color-bg-secondary);
@@ -655,9 +658,10 @@ svg defs {
     font-size: var(--text-sm);
     font-weight: var(--font-medium);
     color: var(--color-text-primary);
-    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
     word-break: break-word;
     min-width: 0;
+    flex: 1;
 }
 
 

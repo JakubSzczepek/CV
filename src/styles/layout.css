@@ -470,6 +470,7 @@ body::before {
 
 .certificates__list {
     width: 100%;
+    max-width: 100%;
     overflow: hidden;
 }
 
@@ -480,6 +481,7 @@ body::before {
     width: 100%;
     max-width: 640px;
     margin: 0 auto;
+    min-width: 0;
 }
 
 
