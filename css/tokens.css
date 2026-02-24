@@ -1,0 +1,198 @@
+/* ==========================================
+   CSS TOKENS - Design System Variables
+   ========================================== */
+
+:root {
+    /* ==================== COLORS ==================== */
+    
+    /* Primary Colors */
+    --color-bg-primary: #0B0F14;
+    --color-bg-secondary: #111A22;
+    --color-accent-green: #33D17A;
+    --color-accent-amber: #F6A53A;
+    --color-accent-pink: #E74C8C;
+    
+    /* Gradient Colors */
+    --gradient-amber-opacity: rgba(246, 165, 58, 0.08);
+    --gradient-green-opacity: rgba(51, 209, 122, 0.08);
+    --gradient-pink-opacity: rgba(231, 76, 140, 0.06);
+    
+    /* Text Colors */
+    --color-text-primary: #FFFFFF;
+    --color-text-secondary: #A0AEC0;
+    --color-text-tertiary: #718096;
+    --color-text-muted: #4A5568;
+    
+    /* UI Colors */
+    --color-border: rgba(255, 255, 255, 0.06);
+    --color-border-hover: rgba(255, 255, 255, 0.12);
+    --color-overlay: rgba(0, 0, 0, 0.5);
+    
+    /* Status Colors */
+    --color-success: #33D17A;
+    --color-warning: #F6A53A;
+    --color-error: #E74C8C;
+    --color-info: #4299E1;
+    
+    
+    /* ==================== SPACING ==================== */
+    
+    /* 8pt Grid System */
+    --space-1: 0.5rem;    /* 8px */
+    --space-2: 1rem;      /* 16px */
+    --space-3: 1.5rem;    /* 24px */
+    --space-4: 2rem;      /* 32px */
+    --space-5: 2.5rem;    /* 40px */
+    --space-6: 3rem;      /* 48px */
+    --space-7: 4rem;      /* 64px */
+    --space-8: 5rem;      /* 80px */
+    --space-9: 6rem;      /* 96px */
+    --space-10: 8rem;     /* 128px */
+    
+    /* Section Spacing - Reduced by 20% */
+    --section-padding-mobile: 4rem;    /* 64px - was 80px (space-8) */
+    --section-padding-tablet: 4.8rem;  /* 76.8px - was 96px (space-9) */
+    --section-padding-desktop: 6.4rem; /* 102.4px - was 128px (space-10) */
+    
+    
+    /* ==================== BORDER RADIUS ==================== */
+    
+    --radius-sm: 0.875rem;  /* 14px */
+    --radius-md: 1.375rem;  /* 22px */
+    --radius-lg: 1.75rem;   /* 28px */
+    --radius-full: 62.4375rem; /* 999px */
+    
+    
+    /* ==================== SHADOWS ==================== */
+    
+    /* Neumorphic Soft Shadows */
+    --shadow-1: 
+        0 2px 4px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.1);
+    
+    --shadow-2: 
+        0 4px 8px rgba(0, 0, 0, 0.12),
+        0 12px 24px rgba(0, 0, 0, 0.15);
+    
+    --shadow-3: 
+        0 8px 16px rgba(0, 0, 0, 0.15),
+        0 16px 32px rgba(0, 0, 0, 0.2);
+    
+    /* Inset Shadows */
+    --shadow-inset: 
+        inset 0 1px 2px rgba(0, 0, 0, 0.2),
+        inset 0 -1px 2px rgba(255, 255, 255, 0.02);
+    
+    /* Glow Effects */
+    --glow-green: 0 0 20px rgba(51, 209, 122, 0.2);
+    --glow-amber: 0 0 20px rgba(246, 165, 58, 0.2);
+    --glow-pink: 0 0 20px rgba(231, 76, 140, 0.2);
+    
+    
+    /* ==================== TYPOGRAPHY ==================== */
+    
+    /* Font Families */
+    --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-display: 'Sora', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    
+    /* Font Sizes - Increased by 50% */
+    --text-xs: 1.3125rem;   /* 21px - was 14px */
+    --text-sm: 1.40625rem;  /* 22.5px - was 15px */
+    --text-base: 1.5rem;    /* 24px - was 16px */
+    --text-md: 1.59375rem;  /* 25.5px - was 17px */
+    --text-lg: 1.875rem;    /* 30px - was 20px */
+    --text-xl: 2.0625rem;   /* 33px - was 22px */
+    --text-2xl: 2.4375rem;  /* 39px - was 26px */
+    --text-3xl: 3rem;       /* 48px - was 32px */
+    --text-4xl: 3.75rem;    /* 60px - was 40px */
+    --text-5xl: 4.875rem;   /* 78px - was 52px */
+    --text-6xl: 6rem;       /* 96px - was 64px */
+    
+    /* Font Weights */
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    --font-extrabold: 800;
+    
+    /* Line Heights */
+    --leading-tight: 1.2;
+    --leading-snug: 1.375;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.625;
+    --leading-loose: 2;
+    
+    
+    /* ==================== TRANSITIONS ==================== */
+    
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    
+    /* ==================== Z-INDEX ==================== */
+    
+    --z-base: 1;
+    --z-dropdown: 100;
+    --z-sticky: 200;
+    --z-fixed: 300;
+    --z-modal: 400;
+    --z-tooltip: 500;
+    
+    
+    /* ==================== BREAKPOINTS ==================== */
+    
+    /* Used in media queries - note these are for reference */
+    --breakpoint-mobile: 360px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-laptop: 992px;
+    --breakpoint-desktop: 1200px;
+    
+    
+    /* ==================== CONTAINER ==================== */
+    
+    --container-max-width: 1280px;
+    --container-padding-mobile: var(--space-2);
+    --container-padding-tablet: var(--space-3);
+    --container-padding-desktop: var(--space-4);
+    
+    
+    /* ==================== NAVIGATION ==================== */
+    
+    --nav-height: 70px;
+    --nav-blur: blur(12px);
+    
+    
+    /* ==================== CIRCULAR PROGRESS ==================== */
+    
+    --progress-size: 195px; /* was 130px - increased by 50% */
+    --progress-stroke-width: 9px; /* was 6px - increased by 50% */
+    --progress-track-color: rgba(255, 255, 255, 0.05);
+    --progress-duration: 1.5s;
+}
+
+
+/* ==========================================
+   RESPONSIVE TOKENS
+   ========================================== */
+
+/* Tablet and up */
+@media (min-width: 768px) {
+    :root {
+        /* Navigation height for larger screens */
+        --nav-height: 90px;
+        
+        /* Adjust typography for larger screens - Increased by 50% */
+        --text-base: 1.5rem;    /* 24px - was 16px */
+        --text-5xl: 4.5rem;     /* 72px - was 48px */
+        --text-6xl: 5.625rem;   /* 90px - was 60px */
+    }
+}
+
+/* Desktop and up */
+@media (min-width: 1200px) {
+    :root {
+        /* Desktop spacing - Reduced by 20% */
+        --section-padding-desktop: 6.4rem; /* 102.4px - was 128px */
+    }
+}

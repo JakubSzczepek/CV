@@ -1,0 +1,167 @@
+{
+  "ui_translations": {
+    "nav": {
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience",
+      "education": "Education",
+      "contact": "Contact"
+    },
+    "hero": {
+      "greeting": "Hi, I'm Kuba",
+      "title1": "My Motto is:",
+      "title2": "Quality First",
+      "role": "Principal Software Quality Engineer",
+      "location": "Krakow, Poland",
+      "cta": "Get in touch"
+    },
+    "about": {
+      "title": "About Me"
+    },
+    "skills": {
+      "title": "Skills",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "proficient": "Proficient",
+      "advanced": "Advanced",
+      "expert": "Expert"
+    },
+    "tools": {
+      "title": "Tools"
+    },
+    "experience": {
+      "title": "Experience"
+    },
+    "education": {
+      "title": "Education"
+    },
+    "certificates": {
+      "title": "Certificates"
+    },
+    "contact": {
+      "title": "Let's get in touch!",
+      "description": "Looking for an experienced Test engineer for your project? Contact me, I'd be happy to discuss collaboration details.",
+      "email": "Send email"
+    },
+    "footer": {
+      "rights": "All rights reserved."
+    }
+  },
+  "personal": {
+    "address": "4/1 Aleksandry St., 30-867 Krakow, Poland"
+  },
+  "hero_description": "I'm looking for a place to grow my skills and experience, where I can contribute to the success of the team and organization.",
+  "about": "I am an experienced Principal Software Quality Engineer with a passion for ensuring the highest quality of software. I specialize in test automation, testing strategies, and QA team management.\n\nThroughout my career, I have had the opportunity to work on diverse projects, from enterprise systems to modern cloud applications. I value teamwork, continuous process improvement, and knowledge sharing with others.",
+  "skill_names": {
+    "python": "Python",
+    "team_management": "Team Management",
+    "java": "JAVA",
+    "english": "English",
+    "bdd": "BDD",
+    "git": "GIT",
+    "grpc": "gRPC",
+    "rest": "REST",
+    "test_automation": "Test Automation",
+    "test_strategy": "Test Strategy Design",
+    "gcp": "Google Cloud Platform"
+  },
+  "experience_data": {
+    "exp_1_period": "06.2025 - present",
+    "exp_1_title": "Principal Software Quality Engineer",
+    "exp_1_tasks": [
+      "Design, development, and maintenance of automated testing strategies for complex systems (JAVA, BDD, GIT, REST, gRPC)",
+      "Creation and enforcement of quality standards and testing procedures at product and organizational level",
+      "Analysis of test results, defect reporting, and recommending corrective actions (JENKINS, Internal Frameworks)",
+      "Root cause analysis and resolution of quality issues in collaboration with development teams (JIRA, GitHub)",
+      "Verification of architecture, system integration, and data processing correctness (GCP, GKE)",
+      "Coordination of the testing team and support for recruitment processes",
+      "Technical mentoring and onboarding of new team members",
+      "R&D work in the area of test tool and application development (AI Agents, Testing Frameworks)"
+    ],
+    "exp_2_period": "12.2021 - 06.2025",
+    "exp_2_title": "Senior QA Automation Engineer",
+    "exp_2_tasks": [
+      "Development of automated tests (JAVA, BDD, GIT, gRPC)",
+      "Bug reporting (BITBUCKET, JIRA)",
+      "Root cause analysis with developers (JENKINS, GCP, Helm)",
+      "Supporting recruitment processes",
+      "Coordination of the testing team",
+      "Supervision and onboarding of new employees",
+      "R&D work in the area of test and application development"
+    ],
+    "exp_3_period": "11.2020 - 12.2021",
+    "exp_3_title": "QA Automation Engineer",
+    "exp_3_tasks": [
+      "Development of automated tests (JAVA, BDD, GIT)",
+      "Bug reporting (BITBUCKET, JIRA)",
+      "Root cause analysis with developers (JENKINS, GCP)"
+    ],
+    "exp_4_period": "03.2020 - 04.2020",
+    "exp_4_title": "QA Automation Engineer",
+    "exp_4_tasks": [
+      "Development of automated tests (Python, BDD, Behave, GIT)",
+      "Bug reporting (BITBUCKET, JIRA)",
+      "Root cause analysis with developers (JENKINS, ALLURE)"
+    ],
+    "exp_5_period": "2019 - 2020",
+    "exp_5_title": "Software Test Automation Engineer",
+    "exp_5_tasks": [
+      "Development and maintenance of test automation tools (Python, C#)",
+      "Development of database components (MS SQL, ORM)",
+      "Development of API components supporting large data sets (.NET Core, Entity Framework)",
+      "Data management in data warehouses (iRODS, AWS)",
+      "Active participation in project development (Gitlab, Microsoft DevOps)",
+      "Management, maintenance, and deployment of test automation on HPCC under Unix (Bash, Slurm)",
+      "Technical problem-solving for project challenges",
+      "Participation in technical reviews of tools and programs from internal and external suppliers"
+    ],
+    "exp_6_period": "2017 - 2019",
+    "exp_6_title": "Software System Test Engineer",
+    "exp_6_tasks": [
+      "Development and administration of tools supporting team work and test automation (Python, Matlab)",
+      "Support and supervision of archiving and version control processes (GIT, Plastic SCM)",
+      "Creation of technical documentation, instructions, lessons learned (Confluence)",
+      "Development of automated tests (MATLAB/Python scripts)",
+      "Execution of tests, report creation, and bug reporting (JIRA)",
+      "Analysis and co-creation of project and testing requirements",
+      "Active participation and leadership in project meetings and review processes",
+      "Supervision and onboarding of new employees"
+    ],
+    "exp_7_period": "2016 - 2017",
+    "exp_7_title": "Junior Software System Test Engineer",
+    "exp_7_tasks": [
+      "Analysis of project requirements (DOORS)",
+      "Preparation of documentation and test scenarios based on requirements (Microsoft Office)",
+      "Development of automated tests (MATLAB/Python scripts)",
+      "Execution of tests, report creation, and bug reporting (JIRA)",
+      "Execution of automotive tests (OXTS RT-Range)",
+      "Cooperation with other teams (locally and remotely)"
+    ],
+    "exp_8_period": "2015 - 2016",
+    "exp_8_title": "Visual Data Indexing and Classification Specialist",
+    "exp_8_tasks": [
+      "Classification and indexing of visual information",
+      "Participation in the creation and adaptation of test automation scripts (MATLAB)",
+      "Participation in automotive tests (OXTS RT-Range)"
+    ]
+  },
+  "education_data": {
+    "edu_1_degree": "MSc in Electrical Engineering",
+    "edu_1_school": "Cracow University of Technology",
+    "edu_1_spec": "Specialization: IT Automation Systems.",
+    "edu_2_degree": "BSc in Electrical Engineering",
+    "edu_2_school": "Cracow University of Technology",
+    "edu_2_spec": "Specialization: Automation in Electrical Systems. Thesis: Three-phase voltage inverter with switching assistance.",
+    "edu_3_degree": "Electronics Technician",
+    "edu_3_school": "Technical School No. 14 at the Communication Schools Complex",
+    "edu_3_spec": "Electronics Technician"
+  },
+  "certificates_data": {
+    "cert_1": {"type": "License", "name": "ISTQB Certified Tester Foundation Level- 08339/FLCT/2017"},
+    "cert_2": {"type": "Diploma", "name": "Certificate confirming the acquisition of first-degree qualifications in Electrical Engineering, specializing in Automation in Electrical Systems, with a good result."},
+    "cert_3": {"type": "Diploma", "name": "Certificate confirming professional qualifications as an Electronics Technician."},
+    "cert_4": {"type": "ECDL", "name": "European Computer Driving Licence."},
+    "cert_5": {"type": "Driving License", "name": "Driving License Category B."}
+  },
+  "consent": "I hereby give consent for my personal data to be processed for the purposes of recruitment in accordance with Article 6(1)(a) of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)."
+}
