@@ -438,6 +438,12 @@ class Renderer {
       // Clear existing timeline
       timeline.innerHTML = '';
 
+      if (!Array.isArray(experience) || experience.length === 0) {
+        console.warn('[Renderer] No experience data to render');
+        timeline.innerHTML = '<div class="timeline__empty">Brak doświadczenia do wyświetlenia.</div>';
+        return;
+      }
+
       // Render each experience
       experience.forEach((exp, index) => {
         const timelineItem = this.createTimelineItem(exp, index);
